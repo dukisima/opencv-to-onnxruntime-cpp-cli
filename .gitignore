@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# CLion / CMake builds
+.idea/
+cmake-build-*/
+build/
+out/
+
+# macOS
+.DS_Store
+
+# Python (for later scripts)
+__pycache__/
+*.pyc
+.venv/
