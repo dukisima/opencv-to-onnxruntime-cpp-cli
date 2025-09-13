@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
     //---------Display an image---------
     cv::imshow("Resized RGB image",rgb);
     cv::waitKey(0); //Wait for a button to be pressed
-    
+
 
     return 0;
 }
